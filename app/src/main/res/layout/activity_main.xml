@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingLeft="40dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="enter user name"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="50dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_psw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="50dp"
+        android:hint="enter password"
+
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:text="Button" />
+
+</LinearLayout>
