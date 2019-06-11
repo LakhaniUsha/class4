@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">class4</string>
+    <string name="alert">are you sure ?</string>
 </resources>
