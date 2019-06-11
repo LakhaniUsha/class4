@@ -16,24 +16,24 @@
         android:orientation="vertical">
 
 
-
-        <EditText
-            android:id="@+id/edt_uname"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/txt_uname1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="enter user name"
             android:textSize="20dp"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/edt_psw"
-            android:layout_width="wrap_content"
+            android:text="username" />
+        <TextView
+            android:id="@+id/txt_pass1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
 
-            android:hint="enter password"
+                 android:text=" password"
+             />
 
-            android:inputType="textPassword" />
+
+
+
     </LinearLayout>
 
 
@@ -45,25 +45,18 @@
 
 
 
-        <EditText
-            android:id="@+id/edt_uname1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="enter user name"
-            android:textSize="20dp"
-
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/edt_psw1"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/txt_uname"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-
-
-            android:hint="enter password"
-
-            android:inputType="textPassword" />
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/txt_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="TextView" />
     </LinearLayout>
 
 

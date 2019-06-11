@@ -1,10 +1,12 @@
 package com.example.a1894007.class4;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         edt_uname = findViewById(R.id.edt_uname);
-        edt_uname = findViewById(R.id.edt_psw);
+        edt_pass = findViewById(R.id.edt_psw);
         btn_submit = findViewById(R.id.button);
 
 
@@ -27,6 +29,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                String uname, pass;
+                uname = edt_uname.getText().toString();
+                pass= edt_pass.getText().toString();
+
+                Intent i = new Intent(MainActivity.this,activity2.class);
+                i.putExtra("un",uname);
+                i.putExtra("ps",pass);
+                startActivity(i);
+
+                Toast.makeText(getApplicationContext(),uname+"thanks",Toast.LENGTH_LONG).show();
             }
         });
 
